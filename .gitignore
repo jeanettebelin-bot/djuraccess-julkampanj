@@ -1,0 +1,26 @@
+# Dependencies & build
+node_modules/
+dist/
+build/
+.vite/
+
+# Environment & secrets (aldrig upp på GitHub)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*serviceAccount*.json
+
+# Känsliga dokument hör inte hemma i det publika webb-repot
+*.pdf
+*.docx
+*.xlsx
+*.csv
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
